@@ -7,3 +7,4 @@ C:\Users\justw\Desktop\CalculatorOOP\Calculator\obj\Debug\Calculator.csproj.Gene
 C:\Users\justw\Desktop\CalculatorOOP\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\justw\Desktop\CalculatorOOP\Calculator\obj\Debug\Calculator.exe
 C:\Users\justw\Desktop\CalculatorOOP\Calculator\obj\Debug\Calculator.pdb
+C:\Users\justw\Desktop\CalculatorOOP\Calculator\obj\Debug\Calculator.CalculatorForm.resources
