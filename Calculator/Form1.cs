@@ -594,15 +594,15 @@ namespace Calculator
             MemoryBox.Visible = !MemoryBox.Visible;
         }
 
-        
+
 
         private void MemorySaveButton_Click(object sender, EventArgs e)
         {
             MemoryStack.Push(double.Parse(CurrentNumberLabel.Text));
             UpdateItems();
         }
-        
-        
+
+
         private void UpdateItems()
         {
             MemoryBox.Items.Clear();
@@ -615,6 +615,7 @@ namespace Calculator
         private void MemoryBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             CurrentNumberLabel.Text = MemoryBox.SelectedItem.ToString();
+            MemoryBox.Visible = false;
         }
     }
 }
